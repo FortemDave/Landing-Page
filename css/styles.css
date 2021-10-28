@@ -158,7 +158,7 @@ body {
     width: auto;
     flex-basis: 100%;
 }
-
+/* ---------------------------------- */
 .section-3 {
     background-color: #E5E7EB;
     flex: 1 0 auto;
@@ -185,8 +185,52 @@ body {
     margin-left: 700px;
     margin-bottom: 70px;
 }
+/* -------------------------- */
 .section-4 {
-    background-color: yellowgreen;
+    background-color: white;
     flex: 1 0 auto;
+    
+}
 
+.section-4 .heading {
+    color: #FFF1FF;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.section-4 .description {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 450;
+    font-family: monospace;
+    max-width: 900px;
+    padding-left: 20px;
+    text-align: left;
+}
+.section-4 .box {
+    background-color: #30435e;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 770px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-4 button {
+    width: 240px;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 800;
+    font-family: monospace;
+    background-image: linear-gradient(#3882F6,white) ;
+    border-radius: 10px;
 }
