@@ -1,7 +1,15 @@
 body {
     margin: 0px;
+    background-color: black;
+    display: flex;
+    flex: 1 0.5 auto;
+    flex-direction: column;
+    /* justify-content: space-between;   */
+    /* Might be needed later lmao */
+    min-height: 100vh;
 }
 
+/* Header Information and Styling */
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -43,4 +51,142 @@ body {
     width: 60px;
     margin-left: 15px;
     border-radius: 15px;
+}
+
+/* Footer Information and Styling */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    max-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Main Content */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.section-1 {
+    background-color: #30435e;
+    color: #F9FAf8;
+    font-family: 'Segoe UI',Impact, 'Arial Narrow Bold', sans-serif;
+
+    display: flex;
+    flex: 1.5 0.7 auto;
+    justify-content: space-evenly;
+    align-content: space-around;
+    font-size: 19px;
+}
+
+.section-1 .text {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.h1{
+    font-size: 60px;
+}
+.section-1 .text p{
+    margin-bottom: 20px;
+}
+
+.section-1 button a,
+.section-1 button{
+    text-decoration: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    box-shadow: none;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 20px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.section-1 img{
+    border-radius: 10px;
+    margin: 20px 0px;
+    height: auto;
+    width: auto;
+}
+/* ------------------------------------ */
+.section-2 {
+    background-color: white;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.section-2 img {
+    height: auto;
+    width: 300px;
+    box-shadow: 2px 4px 20px lightgray;
+    border-radius: 2px;
+}
+
+.section-2 .heading {
+    text-align: center;
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 30px;
+    font-weight: 490;
+}
+
+.section-2 .description {
+    text-align: center;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight: 430;
+    font-size: 20px;
+}
+
+#heading-sec-2 {
+    text-align: center;
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 60px;
+    font-weight: 450;
+    color:#1F2937;
+    width: auto;
+    flex-basis: 100%;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    flex: 1 0 auto;
+    color: #1f291f;
+    display: flex;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-3 .quote {
+    max-width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    max-width: 900px;
+}
+
+#section-3-author {
+    flex-basis: 100%;
+    margin: 0px;
+    margin-left: 700px;
+    margin-bottom: 70px;
+}
+.section-4 {
+    background-color: yellowgreen;
+    flex: 1 0 auto;
+
 }
